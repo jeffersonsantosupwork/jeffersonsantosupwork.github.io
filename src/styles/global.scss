@@ -1,0 +1,151 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $body-bg;
+  color: $text-color;
+  font-family: $font;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  scroll-margin-top: 8rem;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5rem;
+  margin-top: 6rem;
+  max-height: calc(100vh - 6rem);
+  min-height: calc(100vh - 6rem);
+  padding: 3rem 2rem 2rem;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $secondary-color;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: $main-color;
+  }
+}
+
+section {
+  margin: 0 auto;
+  max-width: 100rem;
+  width: 100%;
+  padding: 2rem 0;
+
+  h2 {
+    color: $main-color;
+    font-size: clamp(2rem, 3.3vw, 3rem);
+    font-weight: bold;
+    line-height: 110%;
+    margin-bottom: 2rem;
+    width: fit-content;
+  }
+}
+
+[id] {
+  scroll-margin-top: 7rem;
+}
+
+.skip-to-content {
+  background-color: $main-color;
+  border-radius: 0.5rem;
+  color: $dark-text-color;
+  cursor: pointer;
+  font-family: $font;
+  font-size: $fz-md;
+  height: auto;
+  left: 0;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0;
+  transform: translate(-100%, -100%) scale(0);
+  transition: all 0.3s ease-in-out;
+  width: auto;
+  will-change: transform;
+  z-index: 2;
+
+  &:focus,
+  &:active {
+    outline: none;
+    overflow: auto;
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+:focus-visible {
+  outline: 2px dashed $main-color;
+  outline-offset: 3px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+  outline-offset: 0px;
+}
+
+:focus {
+  outline: 2px dashed $main-color;
+  outline-offset: 3px;
+}
+
+.project {
+  opacity: 0;
+  will-change: opacity, transform;
+  transition: all 0.5s ease-in-out;
+}
+
+.project:nth-child(even) {
+  transform: translateX(10rem);
+}
+
+.project:nth-child(odd) {
+  transform: translateX(-10rem);
+}
+
+.visible,
+.project.visible {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
+  transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s !important;
+}
+
+@media (min-width: 768px) {
+  main>div {
+    padding: 3rem 10rem;
+  }
+}
+
+// Bug: zIndex not working
+#tsparticles canvas {
+  z-index: -1;
+}
