@@ -10,7 +10,7 @@ const userLanguage = () => {
 
 const initialLanguage = userLanguage();
 
-export type Languages = "en" | "es" | "fr";
+export type Languages = "en";
 
 type wildcardProps = {
 	[key: string]: any;
