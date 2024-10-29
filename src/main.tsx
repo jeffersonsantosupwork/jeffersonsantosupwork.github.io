@@ -5,9 +5,9 @@ import App from "@routes/App";
 import "@styles/global.scss";
 
 ReactDOM.createRoot(document.getElementById("app") as HTMLDivElement).render(
-	<React.StrictMode>
+	// <React.StrictMode>
 		<LanguageProvider>
 			<App />
 		</LanguageProvider>
-	</React.StrictMode>
+	// </React.StrictMode>
 );
