@@ -19,10 +19,6 @@
         {
           "name": "Projects",
           "hash": "projects"
-        },
-        {
-          "name": "Contact me",
-          "hash": "contact"
         }
       ],
       "select": {
@@ -50,7 +46,7 @@
     "hero": {
       "title": "Hi! My name is",
       "presentation": {
-        "animated": "Brandon Argel",
+        "animated": "Jefferson Santos",
         "do": "And I build web applications"
       },
       "info": {
@@ -70,7 +66,7 @@
       "id": "about",
       "title": "About me",
       "description": {
-        "firstPart": "Hi there! I'm Brandon Argel Verdeja Domínguez, and I'm",
+        "firstPart": "Hi there! I'm Jefferson Vinicius Silva dos Santos, and I'm",
         "secondPart": "years old.",
         "secondParagraph": "I'm interested in high-impact projects that allow me to combine different frameworks and technologies, culminating in delivering added value to its users.",
         "thirdParagraph": "I am an education enthusiast, so I am constantly learning foreign languages like English, and French, programming languages, and public speaking, as they are tools that will help me share with more people and grow together."
@@ -93,7 +89,7 @@
           "Figma"
         ]
       },
-      "photo": "Photo of Brandon Argel"
+      "photo": "Photo of Jefferson Santos"
     },
     "education": {
       "id": "studies",
@@ -341,29 +337,9 @@
     },
     "footer": [
       {
-        "title": "Brandon Argel's GitHub",
+        "title": "Jefferson Santos's GitHub",
         "link": "https://github.com/BrandonArgel",
         "image": "github"
-      },
-      {
-        "title": "Brandon Argel's Platzi Profile",
-        "link": "https://platzi.com/p/BrandArgel",
-        "image": "platzi"
-      },
-      {
-        "title": "Brandon Argel's Linkedin",
-        "link": "https://www.linkedin.com/in/brandargel/",
-        "image": "linkedin"
-      },
-      {
-        "title": "Brandon Argel's Instagram",
-        "link": "https://www.instagram.com/brandargel/",
-        "image": "instagram"
-      },
-      {
-        "title": "Brandon Argel's Twitter",
-        "link": "https://twitter.com/BrandArgel",
-        "image": "twitter"
       }
     ]
   },
@@ -387,10 +363,6 @@
         {
           "name": "Proyectos",
           "hash": "proyectos"
-        },
-        {
-          "name": "Contáctame",
-          "hash": "contacto"
         }
       ],
       "select": {
@@ -713,26 +685,6 @@
         "title": "GitHub de Brandon Argel",
         "link": "https://github.com/BrandonArgel",
         "image": "github"
-      },
-      {
-        "title": "Perfil de Platzi de Brandon Argel",
-        "link": "https://platzi.com/p/BrandArgel",
-        "image": "platzi"
-      },
-      {
-        "title": "Linkedin de Brandon Argel",
-        "link": "https://www.linkedin.com/in/brandargel/",
-        "image": "linkedin"
-      },
-      {
-        "title": "Instagram de Brandon Argel",
-        "link": "https://www.instagram.com/brandargel/",
-        "image": "instagram"
-      },
-      {
-        "title": "Twitter de Brandon Argel",
-        "link": "https://twitter.com/BrandArgel",
-        "image": "twitter"
       }
     ]
   },
@@ -756,10 +708,6 @@
         {
           "name": "Projets",
           "hash": "projets"
-        },
-        {
-          "name": "Contactez-moi",
-          "hash": "contact"
         }
       ],
       "select": {
@@ -1082,26 +1030,6 @@
         "title": "GitHub de Brandon Argel",
         "link": "https://github.com/BrandonArgel",
         "image": "github"
-      },
-      {
-        "title": "Profil de Brandon Alger Platzi",
-        "link": "https://platzi.com/p/BrandArgel",
-        "image": "platzi"
-      },
-      {
-        "title": "Linkedin de Brandon Argel",
-        "link": "https://www.linkedin.com/in/brandargel/",
-        "image": "linkedin"
-      },
-      {
-        "title": "Instagram de Brandon Argel",
-        "link": "https://www.instagram.com/brandargel/",
-        "image": "instagram"
-      },
-      {
-        "title": "Twitter de Brandon Argel",
-        "link": "https://twitter.com/BrandArgel",
-        "image": "twitter"
       }
     ]
   }
