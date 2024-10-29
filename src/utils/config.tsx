@@ -3,6 +3,8 @@ import { GitHub, Instagram, Linkedin, Platzi, Twitter } from "@assets/icons";
 // import blog2x from "@assets/images/blog-x2.jpg";
 import moviesApp from "@assets/images/movies_app.jpg";
 import moviesApp2x from "@assets/images/movies_app-x2.jpg";
+import sharingApp from "@assets/images/sharing_app.png";
+import sharingApp2x from "@assets/images/sharing_app-x2.png";
 import musicPlayer from "@assets/images/music_player.jpg";
 import musicPlayer2x from "@assets/images/music_player-x2.jpg";
 import platziBadges from "@assets/images/platzi_badges.jpg";
@@ -22,6 +24,10 @@ export const CardImages = {
 	moviesApp: {
 		sm: moviesApp,
 		md: moviesApp2x,
+	},
+	sharingApp: {
+		sm: sharingApp,
+		md: sharingApp2x,
 	},
 	musicPlayer: {
 		sm: musicPlayer,

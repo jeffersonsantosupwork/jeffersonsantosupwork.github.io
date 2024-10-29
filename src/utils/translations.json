@@ -228,11 +228,11 @@
       "description": "Throughout my career as a Frontend, I have had the opportunity of working on incredible and challenging projects. Here are some projects that I would like to share.",
       "list": [
         {
-          "name": "Movies App",
-          "description": "I developed this project with the API Rest consumption course trilogy at Platzi, and using TMDB API.",
+          "name": "Media Sharing App",
+          "description": "I developed this project with React, Material UI and Firebase.",
           "link": "https://movies-platzi-app.netlify.app/",
-          "github": "https://github.com/BrandonArgel/movie-app",
-          "image": "moviesApp"
+          "github": "https://github.com/jeffersonsantosupwork/media-sharing-app",
+          "image": "sharingApp"
         }
       ]
     },
