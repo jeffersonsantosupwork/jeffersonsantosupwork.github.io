@@ -20,11 +20,6 @@ const Projects = React.lazy(() =>
 		default: Projects,
 	}))
 );
-const Contact = React.lazy(() =>
-	import("@components").then(({ Contact }) => ({
-		default: Contact,
-	}))
-);
 
 const Home = () => {
 	React.useEffect(() => {
