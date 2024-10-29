@@ -1,8 +1,8 @@
 import * as React from "react";
 import { LanguageContext } from "@context";
 import { useShowIn } from "@hooks";
-import Me from "@assets/images/me.jpg";
-import Me2x from "@assets/images/me-x2.jpg";
+import Me from "@assets/images/me.png";
+import Me2x from "@assets/images/me-x2.png";
 import styles from "./About.module.scss";
 
 const About = () => {
