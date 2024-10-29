@@ -49,7 +49,6 @@ const Home = () => {
 				<Education />
 				<Jobs />
 				<Projects />
-				<Contact />
 			</React.Suspense>
 		</>
 	);
