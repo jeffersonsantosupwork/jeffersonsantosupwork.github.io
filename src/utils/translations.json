@@ -96,29 +96,15 @@
       "title": "Where I've studied",
       "schools": [
         {
-          "name": "Platzi & Platzi Master",
+          "name": "Universidade Católica de Pernambuco",
           "career": [
             {
               "title": "Frontend Developer",
-              "start_date": "September 2018",
-              "end_date": "Present",
+              "start_date": "September 2019",
+              "end_date": "2023",
               "description": [
                 "Platzi Master is an intensive and elite program, where only 0.01% of the best students on the platform are accepted, to turn them into the next generation of the best professionals in the technology industry, with 1:1 support from specialized and recognized technical trainers in the industry. 💻",
                 "I am an education enthusiast, so I am constantly learning foreign languages like English, and French, programming languages, and public speaking, as they are tools that will help me share with more people and grow together. 💚"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Escuela Poltécnica Ing. Jorge Matute Remus",
-          "career": [
-            {
-              "title": "Professional Computer Technologist",
-              "start_date": "July 2017",
-              "end_date": "June 2021",
-              "description": [
-                "I studied the career of computer science, where I learned the basics of various programming languages and web development.",
-                "I also did internships and professional projects in which I was able to develop my skills and practice my knowledge of web development."
               ]
             }
           ]
@@ -130,7 +116,7 @@
       "title": "Where I've worked",
       "jobs": [
         {
-          "company": "Cognizant Technology Solutions",
+          "company": "4° Registro de Imóveis do Recife",
           "positions": [
             {
               "title": "React Developer",
@@ -155,7 +141,7 @@
           ]
         },
         {
-          "company": "Platzi",
+          "company": "Speed+",
           "positions": [
             {
               "title": "Quality Check",
@@ -247,54 +233,6 @@
           "link": "https://movies-platzi-app.netlify.app/",
           "github": "https://github.com/BrandonArgel/movie-app",
           "image": "moviesApp"
-        },
-        {
-          "name": "Rick and Morty",
-          "description": "I made this project fetching data from the Rick and Morty API, with react and an typescript, using the best practices and optimization techniques.",
-          "link": "https://rickandmorty.brandonargel.me/",
-          "github": "https://github.com/BrandonArgel/rick-and-morty",
-          "image": "rickAndMorty"
-        },
-        {
-          "name": "GitHub Profile",
-          "description": "I developed this project while learning Material UI, fetching GitHub's API to get the user's information and repositories.",
-          "link": "https://githubprofile.brandonargel.me/",
-          "github": "https://github.com/BrandonArgel/github-profile",
-          "image": "githubProfile"
-        },
-        {
-          "name": "Portfolio",
-          "description": "This is the portfolio that you are seeing right now, I made it with react and typescript, and I used sass for the styles.",
-          "github": "https://github.com/BrandonArgel/brandonargel.github.io",
-          "image": "portfolio"
-        },
-        {
-          "name": "ToDo App",
-          "description": "This is a project that looks pretty simple, but it has a lot of features, such as: dark/light mode, use of local storage, a search bar, drag and drop, and it was developed with react sass and typescript.",
-          "link": "http://todoapp.brandonargel.me/",
-          "github": "https://github.com/BrandonArgel/todo-app/",
-          "image": "todoApp"
-        },
-        {
-          "name": "Platzi Badges",
-          "description": "This is a project where I started learning about react, I made also a REST API to make, modify, and delete the badges, you can also register your own badge!",
-          "link": "https://brandonargel.github.io/platzi-badges/",
-          "github": "https://github.com/BrandonArgel/platzi-badges",
-          "image": "platziBadges"
-        },
-        {
-          "name": "Music Player",
-          "description": "Vanilla JavaScript music player, this is one of my very first projects using JavaScript.",
-          "link": "https://brandonargel.github.io/music-player/",
-          "github": "https://github.com/BrandonArgel/music-player",
-          "image": "musicPlayer"
-        },
-        {
-          "name": "Simon Says",
-          "description": "Game Simon Says, with Vanilla JavaScript. Can you pass all 15 levels? Challenge your memory!",
-          "link": "https://brandonargel.github.io/simon-says/",
-          "github": "https://github.com/BrandonArgel/simon-says",
-          "image": "simonSays"
         }
       ]
     },
