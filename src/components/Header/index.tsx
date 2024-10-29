@@ -122,14 +122,6 @@ const Header = () => {
                 <a href={`#${hash}`}>{name}</a>
               </li>
             ))}
-            <li style={{ animationDelay: `${header.nav.length * 0.1 + 0.1}s` }}>
-              <Select
-                title={header.select.title}
-                options={header.select.options}
-                setValue={setLanguage}
-                value={language}
-              />
-            </li>
           </ul>
         </nav>
         <button
